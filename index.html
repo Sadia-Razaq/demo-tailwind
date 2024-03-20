@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Grid Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main grid gap-4 h-screen ">
+        <div class="header grid col-span-1 md:col-span-12 h-20 bg-gray-800 text-white">1</div>
+        <div class="main-left grid col-span-1 h-60 md:col-span-6 bg-gray-200">2</div>
+        <div class="main-right grid col-span-1 h-60 md:col-span-6 bg-gray-300">3</div>
+        <div class="footer grid col-span-1 md:col-span-12  h-20 mb-0 pb-0 md:mt-60 bg-gray-800 text-white">4</div>
+    </div>
+
+    <!-- <div class="main grid gap-4 h-screen flex flex-col ">
+        <div class="header justify-center  grid col-span-1 md:col-span-12 h-20 bg-gray-800 text-white">Header</div>
+        <div class="main-left justify-center grid col-span-1 h-60 md:col-span-6 bg-gray-200">content-left</div>
+        <div class="main-right justify-center grid col-span-1 h-60 md:col-span-6 bg-gray-300">content-right</div>
+        <div class="footer  justify-center grid col-span-1 md:col-span-12 h-20 bg-gray-800 text-white mt-auto">Footer</div>
+    </div> -->
+   
+</body>
+</html>
